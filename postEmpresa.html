@@ -27,35 +27,42 @@
             </div>
         </div>
     </nav>
-    <div class="container mt-4">
-        <h2 class="text-primary">Postar Vaga</h2>
-        <form>
-            <div class="mb-3">
-                <label for="nomeVaga" class="form-label">Título da Vaga</label>
-                <input type="text" class="form-control" id="nomeVaga" required>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div class="card p-4 shadow-sm">
+              <h2 class="card-title text-center mb-4 text-primary">Postar Vaga</h2>
+              <form class="row g-3">
+                <div class="col-md-12">
+                  <label for="nomeVaga" class="form-label">Título da Vaga</label>
+                  <input type="text" class="form-control" id="nomeVaga" required>
+                </div>
+                <div class="col-md-12">
+                  <label for="descricao" class="form-label">Descrição da Vaga</label>
+                  <textarea class="form-control" id="descricao" rows="4" required></textarea>
+                </div>
+                <div class="col-md-12">
+                  <label for="requisitos" class="form-label">Requisitos</label>
+                  <textarea class="form-control" id="requisitos" rows="4" required></textarea>
+                </div>
+                <div class="col-md-12">
+                  <label for="beneficios" class="form-label">Benefícios</label>
+                  <textarea class="form-control" id="beneficios" rows="4" required></textarea>
+                </div>
+                <div class="col-md-6">
+                  <label for="localizacao" class="form-label">Localização</label>
+                  <input type="text" class="form-control" id="localizacao" required>
+                </div>
+                <div class="col-md-6">
+                  <label for="salario" class="form-label">Salário</label>
+                  <input type="text" class="form-control" id="salario" required>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary w-100">Publicar Vaga</button>
+                </div>
+              </form>
             </div>
-            <div class="mb-3">
-                <label for="descricao" class="form-label">Descrição da Vaga</label>
-                <textarea class="form-control" id="descricao" rows="4" required></textarea>
-            </div>
-            <div class="mb-3">
-                <label for="requisitos" class="form-label">Requisitos</label>
-                <textarea class="form-control" id="requisitos" rows="4" required></textarea>
-            </div>
-            <div class="mb-3">
-                <label for="beneficios" class="form-label">Benefícios</label>
-                <textarea class="form-control" id="beneficios" rows="4" required></textarea>
-            </div>
-            <div class="mb-3">
-                <label for="localizacao" class="form-label">Localização</label>
-                <input type="text" class="form-control" id="localizacao" required>
-            </div>
-            <div class="mb-3">
-                <label for="salario" class="form-label">Salário</label>
-                <input type="text" class="form-control" id="salario" required>
-            </div>
-            <button type="submit" class="btn btn-primary">Publicar Vaga</button>
-        </form>
-    </div>
-</body>
-</html>
+          </div>
+        </div>
+      </div>
+      
